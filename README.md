@@ -1,9 +1,9 @@
-# Blog WebApp using GraphQl
+# Blog WebApp using GraphQL
 
 # How to run the project 
   
-  open terminal 
-  ## _npm i_
+  open terminal <br/>
+  ```npm i```
   
   open db/connection.js
   instead of this __postgres://postgres@localhost:5432/postgres__ put your local db connection for run the project 
@@ -12,20 +12,22 @@
   Schema as follows
   
   __posts__
-  _ _id (primary key - __int__)
-  title (title of the post - __varchar__)
-  content (content of the post - __varchar__)
-  status (status of post (draft / post ) of the post - __varchar__)
-  userId (userId of the User - __int__ ( forein key )) _ _
-  
+ ```
+  id (primary key - int)
+  title (title of the post - varchar)
+  content (content of the post - varchar)
+  status (status of post (draft / post ) of the post - varchar)
+  userId (userId of the User - int ( forein key )) 
+  ```
   __users__
-  _ _id (primary key - __int__)
-  name (name of the user - __varchar__)
-  email (email of the user - __varchar__)
-  password (password of user - __varchar__)
+  ```
+  id (primary key - int)
+  name (name of the user - varchar)
+  email (email of the user - varchar)
+  password (password of user - varchar)
   
-  
-  ## node index.js
+  ```
+  ```node index.js```
   
 # Project endpoints
 
