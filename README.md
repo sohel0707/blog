@@ -3,7 +3,7 @@
 # How to run the project 
   
   open terminal 
-  ## _ _npm i
+  ## _npm i_
   
   open db/connection.js
   instead of this __postgres://postgres@localhost:5432/postgres__ put your local db connection for run the project 
@@ -83,6 +83,7 @@
   
   ```
   __get all Post for user__
+  ```
   localhost:6969/post
   header: x-access-token: token
   body:
